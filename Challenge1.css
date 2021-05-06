@@ -80,6 +80,7 @@ nav, footer{
     margin-top: 8px;
     border-radius: 100%;
     width: 80px;
+    /* height: 80px; */
 }
 
 form{
@@ -173,7 +174,7 @@ span.lab{
     height:40px;
 }
 
- .YT{
+.yt{
      width: 40px;
      height: 40px;
      object-fit: cover;
@@ -181,6 +182,7 @@ span.lab{
  }
 
  .twitter{
+     margin-top: 1000px;
      object-fit: cover;
      width: 40px;
  }
@@ -192,3 +194,11 @@ span.lab{
  input[type="checkbox"].how:hover, input[type="radio"].how:hover{
      transform: scale(1.4);
  }
+
+ /* ul.social{
+    height: 50px;
+    width: 250px;
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0ch;
+ } */
