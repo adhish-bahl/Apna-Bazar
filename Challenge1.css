@@ -26,13 +26,31 @@ body{
     background-size:cover;
 }
 
+.main {
+    box-sizing: border-box;
+    width: 100%;
+}
+
 .active{
     border: 2px solid #F4A896;
     border-radius: 4px;
 }
 
+.link {
+    display: inline-block;
+}
+
 .mainbox>div{
     margin-top: 13px;
+}
+
+.ssicon {
+    width: 30px;
+    padding: 0px 1px;
+}
+
+.footerinfo {
+    margin: 10px 0px 5px 0px;
 }
 
 div.logo, div.rbox, div.navdiv, ul, li, div.lbox{
@@ -92,7 +110,7 @@ form{
 }
 
 fieldset{
-    width: 94%;
+    width: 90%;
     margin:auto;
     background-color: #232021;
     border: 3px solid #F4A896;
@@ -127,7 +145,7 @@ div.privacy>p>a{
 button{
     background-color: #F4A896;
     border: none;
-    width: 20%;
+    width: max-content;
     font-size: 21px;
     margin: 15px;
     padding: 4px;
@@ -137,7 +155,7 @@ span.lab{
     margin-right: 10px;
     background-color: #232021;
     display: inline-block;
-    width: 200px;
+    width: 40%;
     height: 21px;
     padding: 9px;
     text-align: center;
@@ -151,7 +169,7 @@ span.lab{
 
  span.inp input{
     display: inline-block;
-    width: 200px;
+    width: 42%;
     padding: 9px;
     text-align: center;
     margin: 10px 0px 0px 0px;
@@ -195,10 +213,38 @@ span.lab{
      transform: scale(1.4);
  }
 
- /* ul.social{
-    height: 50px;
+ .navinfo {
+     margin: 10px 0px;
+ }
+
+ ul.social{
+     margin: 0px;
+     padding: 5px;
+    /* height: 50px;
     width: 250px;
-    margin: 0px;
     margin-top: 10px;
-    padding: 0ch;
- } */
+    padding: 0ch; */
+ }
+
+
+ @media screen and (max-width: 700px) {
+     form {
+         width: 80% 
+     }
+ }
+
+ @media screen and (max-width: 520px) {
+    form {
+        display: flex;
+        flex-direction: row;
+    }
+
+    span.lab{
+        width: 85%;
+        margin: 15px 0px 3px 0px;
+    }
+
+    span.inp input{
+        width: 85%;
+    }
+    }
