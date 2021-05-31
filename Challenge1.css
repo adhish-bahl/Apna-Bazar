@@ -96,7 +96,8 @@ nav, footer{
     text-align: center;
     margin-left: 47%;
     margin-top: 8px;
-    border-radius: 100%;
+    clip-path: circle(50% at 50% 50%);
+    /* border-radius: 100%; */
     width: 80px;
     /* height: 80px; */
 }
